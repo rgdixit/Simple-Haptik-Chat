@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Haptik Chat</string>
+    <string name="data_url">http://haptik.co/android/test_data/</string>
+    <string name="count">%s</string>
+</resources>
