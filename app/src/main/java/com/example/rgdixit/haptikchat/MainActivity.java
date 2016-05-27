@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mChatList = (RecyclerView) findViewById(R.id.chat_list);
         LinearLayoutManager llm = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
-//        llm.setStackFromEnd(true);
         mContainer = findViewById(R.id.container);
         mChatList.setLayoutManager(llm);
         mLoadingView = findViewById(R.id.loading_view);
